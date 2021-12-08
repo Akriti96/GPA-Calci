@@ -1,0 +1,242 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>GPA Calculator</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+</head>
+<body>
+            <h1 id="main-heading" style="color:#f3f3f3;">GPA Calculator</h1>
+    <button id="switchh" onclick="switchbtn()">CGPA</button>
+    <div id="gpaBox">
+        <table>
+            <tr>
+                <th>Subjects</th>
+                <th>Credit Hours</th>
+                <th>Marks</th>
+                <th>Grade</th>
+                <th>GPA</th>
+            </tr>
+            <tr>
+                <td>Subject 1</td>
+                <td>
+                    <select class="select" id="hours1">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="text" class="inputMarks" id="inputm1" />
+                </td>
+                <td>
+                    <h3 id="grade1">null</h3>
+                </td>
+                <td>
+                    <h3 id="gpaOfSbj1" class="gpaLabel">null</h3>
+
+                </td>
+            </tr>
+            <tr>
+                <td>Subject 2</td>
+                <td>
+                    <select class="select" id="hours2">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="text" class="inputMarks" id="inputm2" />
+                </td>
+                <td>
+                    <h3 id="grade2">null</h3>
+                </td>
+                <td>
+                    <h3 id="gpaOfSbj2" class="gpaLabel">null</h3>
+
+                </td>
+
+            </tr>
+            <tr>
+                <td>Subject 3</td>
+                <td>
+                    <select class="select" id="hours3">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="text" class="inputMarks" id="inputm3" />
+                </td>
+                <td>
+                    <h3 id="grade3">null</h3>
+                </td>
+                <td>
+                    <h3 id="gpaOfSbj3" class="gpaLabel">null</h3>
+
+                </td>
+
+            </tr>
+            <tr>
+                <td>Subject 4</td>
+                <td>
+                    <select class="select" id="hours4">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="text" class="inputMarks" id="inputm4" />
+                </td>
+                <td>
+                    <h3 id="grade4">null</h3>
+                </td>
+                <td>
+                    <h3 id="gpaOfSbj4" class="gpaLabel">null</h3>
+
+                </td>
+
+            </tr>
+            <tr>
+                <td>Subject 5</td>
+                <td>
+                    <select class="select" id="hours5">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="text" class="inputMarks" id="inputm5" />
+                </td>
+                <td>
+                    <h3 id="grade5">null</h3>
+                </td>
+                <td>
+                    <h3 id="gpaOfSbj5" class="gpaLabe5">null</h3>
+
+                </td>
+
+            </tr>
+            <tr>
+                <td>Subject 6</td>
+                <td>
+                    <select class="select" id="hours6">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="text" class="inputMarks" id="inputm6" />
+                </td>
+                <td>
+                    <h3 id="grade6">null</h3>
+                </td>
+                <td>
+                    <h3 id="gpaOfSbj6" class="gpaLabel">null</h3>
+
+                </td>
+
+            </tr>
+            <tr>
+                <td>Subject 7</td>
+                <td>
+                    <select class="select" id="hours7">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="text" class="inputMarks" id="inputm7" />
+                </td>
+                <td>
+                    <h3 id="grade7">null</h3>
+                </td>
+                <td>
+                    <h3 id="gpaOfSbj7" class="gpaLabel">null</h3>
+
+                </td>
+
+            </tr>
+            <tr>
+                <td>Subject 8</td>
+                <td>
+                    <select class="select" id="hours8">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="text" class="inputMarks" id="inputm8" />
+                </td>
+                <td>
+                    <h3 id="grade8">null</h3>
+                </td>
+                <td>
+                    <h3 id="gpaOfSbj8" class="gpaLabel">null</h3>
+
+                </td>
+
+            </tr>
+        </table>
+        <div class="ResultDiv">
+            <h2 style="text-align:center">Set 4 GPA marks</h2>
+            <input id="setgpa" class="inputMarks" style="margin-left:80px; width:200px" type="text" placeholder="eg. 90 or 85" />
+
+            <div>
+                <h1 style="margin-left:10px" id="showGPA">GPA :</h1>
+            </div>
+            <div>
+                <h1 style="margin-left:10px" id="showPercentage">Percentage :</h1>
+            </div>
+            <center>  <div id="CalculateBtn" onclick="calculate()">Calculate</div></center>
+        </div>
+    </div>
+        
+    
+    <div id="cgpaBox">
+        <table>
+            <tr class="tr2">
+                <th>Semester 1</th>
+                <th>Semester 2</th>
+                <th>Semester 3</th>
+                <th>Semester 4</th>
+                <th>Semester 5</th>
+                <th>Semester 6</th>
+                <th>Semester 7</th>
+                <th>Semester 8</th>
+            </tr>
+            <tr class="tr2">
+                <td><input type="text" class="inputMarks" id="inputgpa1"/></td>
+                <td><input type="text" class="inputMarks" id="inputgpa2" /></td>
+                <td><input type="text" class="inputMarks" id="inputgpa3" /></td>
+                <td><input type="text" class="inputMarks" id="inputgpa4" /></td>
+                <td><input type="text" class="inputMarks" id="inputgpa5" /></td>
+                <td><input type="text" class="inputMarks" id="inputgpa6" /></td>
+                <td><input type="text" class="inputMarks" id="inputgpa7" /></td>
+                <td><input type="text" class="inputMarks" id="inputgpa8" /></td>
+            </tr>
+        </table>
+        <div class="ResultDiv2">
+            <h1 id="showCGPA" style="text-align:center;">CPGA: </h1>
+            <center>  <div id="CalculateBtn" onclick="calculateCGPA()">Calculate</div></center>
+        </div>
+    </div>
+</body>
+</html>
